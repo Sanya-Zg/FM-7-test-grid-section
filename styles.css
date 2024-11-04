@@ -3,25 +3,79 @@ body{
     font-family: "Barlow Semi Condensed", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.8125rem;
+    max-width: 1440px;
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(0, 0%, 100%);
+}
+.font-color-dark{
+    color: hsl(217, 19%, 35%);
 }
 .container {
+    margin: 10.25rem 10.3125rem;
+    width: 1110px;
+    height: 572px;
 }
 .inner-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem 1.875rem;
+}
+.item-bg-1{
+    background-color: hsl(263, 55%, 52%);
+    grid-column: span 2;
+}
+.item-bg-2{
+    background-color: hsl(217, 19%, 35%);
+}
+.item-bg-3{
+    background-color: hsl(0, 0%, 100%);
+    grid-row: span 2;
+}
+.item-bg-4{
+    background-color: hsl(0, 0%, 100%);
+}
+.item-bg-5{
+    background-color: hsl(219, 29%, 14%);
+    grid-column: span 2;
+}
+.item-bg-1 .text{
+    color: hsl(0, 0%, 81%);
 }
 .item-cont {
+    padding: 1.625rem 2rem 2rem;
+    border-radius: 8px;
 }
 .item-top {
+    display: flex;
 }
 .image {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #A775F1;
+}
+.info-about{
+    margin-left: 17px;
 }
 .name-of-graduate {
+    margin: 0 0 4px;
 }
 .status {
+    font-size: 11px;
+    line-height: 11px;
+    margin: 0;
+    opacity: 50%;
 }
 .article {
+
 }
 .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 18px 0 16px;
 }
 .text {
+    opacity: 70%;
 }
