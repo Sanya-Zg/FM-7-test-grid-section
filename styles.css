@@ -82,7 +82,7 @@ p{
     margin-top: 1.5rem;
 }
 
-@media (min-width: 800px) and (max-width: 1440px){
+@media screen and (min-width: 800px) {
     .inner-content {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
