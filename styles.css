@@ -70,6 +70,7 @@ body{
 .text {
     opacity: 70%;
     line-height: 1.125rem;
+    margin-bottom: 0;
 }
 .article .added-for-blue{
     margin-top: 1.625rem;
@@ -82,7 +83,9 @@ p{
     margin-top: 1.5rem;
 }
 
-@media screen and (min-width: 800px){
+
+@media screen and (min-width: 800px) {
+
     .inner-content {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
